@@ -41,3 +41,42 @@ print("Result 4: ", result4)
 result5 = 5 + 2 ** 3 * (4 - 3)
 print("Result 5: ", result5)
 
+# CHALLENGES
+
+# Challenge 1
+# Calc. Area of Rectangle
+# width 8 an hieght 5
+
+Width = 8
+Hieght = 5
+print("Area of Rectangle: ", Width * Hieght)
+
+# Challenge 2
+# Use the form. pir^2 to calc area of circle with raduis as 7
+# ( pi as 3.14)
+
+pi = 3.14
+radius = 7
+print("Area of Cirlce: ", pi * radius ** 2)
+
+# Challege 3
+# A book is 12.99 and notebook is 3.50
+# Find tatal cost of 3 books and 4 notebooks
+
+book = 12.99
+notebook = 3.50
+print("Total Cost: ", book *  3 + notebook * 4)
+
+# Challenge 4 
+# create an integer variable
+# use modulus to check if even or odd
+# explain resoning
+
+num = 7
+
+if num%2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+
