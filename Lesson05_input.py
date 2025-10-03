@@ -41,3 +41,11 @@ area = math.pi * radius ** 2
 
 print(f"The area of your circle is: {area}")
 
+# Challenge: Custom Die Roll
+# Ask the user to enter how many sides the die should have.
+# Then simulate rolling the die once and print the result.
+
+import random
+
+side = int(input("How many sides should there be on the die: "))
+print(f"Result: {random.randint(1, side)}")
