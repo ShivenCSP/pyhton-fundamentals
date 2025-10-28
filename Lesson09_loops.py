@@ -48,3 +48,38 @@ for letter in fav_word:
 print(letter_list)
 
 print()
+
+# ---------------------------------------------------------
+# WHILE LOOPS
+# ---------------------------------------------------------
+# A while-loop repeats *while* a condition is true.
+# If you forget to change the condition, it loops forever.
+# And then your program becomes immortal. Avoid that.
+
+# += to add to a variable, -= to subtract to a variable, = to overright 
+# import time
+# count = 0
+
+while count < 5: 
+    print(f"Loopin'. We are on loop # {count}.")
+    count += 1
+    time.sleep(0.5)
+
+print("We have escaped the loop!")
+
+user_input = ""
+
+while user_input != "exit":
+    user_input = input("Type 'exit' to escape:")
+
+count = 60
+increment = 1
+
+while count > 0:
+    count -= increment
+    increment += 1
+        
+    if count < 0:
+        break
+
+    print(count)
